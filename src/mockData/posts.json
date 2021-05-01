@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "heading": "Post 1",
+    "description": "Post 1 description",
+    "createdDate": "String",
+    "updatedDate": "String",
+    "userId": "User1",
+    "likes": 2,
+    "isLikedByCurrentUser": false,
+    "comments": [
+      {
+        "id": "4",
+        "title": "test comment1",
+        "userInfo": { "name": "John" },
+        "comments": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "heading": "Post 2",
+    "description": "Post 2 description",
+    "createdDate": "String",
+    "updatedDate": "String",
+    "userId": "User1",
+    "likes": 10,
+    "isLikedByCurrentUser": true,
+    "comments": [
+      {
+        "id": "4",
+        "title": "test comment2",
+        "userInfo": { "name": "Doe" },
+        "comments": []
+      }
+    ]
+  }
+]
